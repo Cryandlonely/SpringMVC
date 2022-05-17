@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Spring-003-Ajax:war">
+    <output-path>$PROJECT_DIR$/Spring-003-Ajax/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>false</exploded>
+        <module>Spring-003-Ajax</module>
+        <packaging>war</packaging>
+        <unpackNestedArchives>false</unpackNestedArchives>
+      </options>
+    </properties>
+    <root id="archive" name="SpringMVC-003-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Spring-003-Ajax:war exploded" />
+    </root>
+  </artifact>
+</component>

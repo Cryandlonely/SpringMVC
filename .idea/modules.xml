@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SpringMVC-001/SpringMVC-001.iml" filepath="$PROJECT_DIR$/SpringMVC-001/SpringMVC-001.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringMVC-002/SpringMVC-002.iml" filepath="$PROJECT_DIR$/SpringMVC-002/SpringMVC-002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringMVC-003-Ajax/SpringMVC-003.iml" filepath="$PROJECT_DIR$/SpringMVC-003-Ajax/SpringMVC-003.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringMVC-004-jump/SpringMVC-004-jump.iml" filepath="$PROJECT_DIR$/SpringMVC-004-jump/SpringMVC-004-jump.iml" />
     </modules>
   </component>
 </project>

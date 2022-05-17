@@ -31,4 +31,10 @@
     仅限于超链接或地址栏提交数据
 --%>
 <a href="/three/张三/99.action">动态</a>
+<h2>4.映射名称不一致</h2>
+<form action="/four.action" method="get">
+    姓名：<input type="text" name="name"><br>
+    年龄：<input type="text" name="age"><br>
+    <input type="submit" value="提交">
+</form>
 </html>

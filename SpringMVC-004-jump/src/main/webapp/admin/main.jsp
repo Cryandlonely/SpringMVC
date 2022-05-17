@@ -1,0 +1,23 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html>
+<head>
+    <title>Title</title>
+</head>
+<body>
+进入.........................
+<%--
+    request.setAttribute("requestUser",users);
+    session.setAttribute("sessionUser",users);
+    model.addAttribute("modelUser",users);
+    map.put("mapUser",users);
+    modelMap.addAttribute("modelMapUser",users);
+--%>
+转发携带数据：<br>
+requestUser:${requestUser}<br>
+sessionUser:${sessionUser}<br>
+modelUser:${modelUser}<br>
+mapUser:${mapUser}<br>
+modelMapUser:${modelMapUser}<br>
+得到请求中的参数:${param.name}
+</body>
+</html>

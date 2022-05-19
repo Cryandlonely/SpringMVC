@@ -7,19 +7,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="SpringMVC-001" />
+        <module name="SpringMVC-005-WEB-INF" />
         <module name="SpringMVC-003" />
         <module name="SpringMVC-002" />
         <module name="SpringMVC-004-jump" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="Spring" target="1.8" />
-      <module name="Spring-003-Ajax" target="1.5" />
-      <module name="SpringMVC" target="1.5" />
+    <bytecodeTargetLevel target="1.8">
       <module name="SpringMVC-001" target="1.8" />
       <module name="SpringMVC-002" target="1.8" />
-      <module name="SpringMVC-003" target="1.5" />
-      <module name="SpringMVC-004-jump" target="1.5" />
+      <module name="SpringMVC-003" target="1.8" />
+      <module name="SpringMVC-004-jump" target="1.8" />
+      <module name="SpringMVC-005-WEB-INF" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

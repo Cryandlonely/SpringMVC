@@ -1,8 +1,6 @@
 package com.lixingyuan.example.controller;
 
-import com.lixingyuan.example.pojo.Student;
 import com.lixingyuan.example.pojo.Users;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.ui.ModelMap;

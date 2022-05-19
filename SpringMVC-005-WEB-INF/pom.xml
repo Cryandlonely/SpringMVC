@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>org.example</groupId>
-  <artifactId>SpringMVC-004-jump</artifactId>
+  <artifactId>SpringMVC-005-WEB-INF</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>war</packaging>
 

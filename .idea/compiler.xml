@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="SpringMVC-001" />
-        <module name="SpringMVC-005-WEB-INF" />
         <module name="SpringMVC-003" />
         <module name="SpringMVC-002" />
         <module name="SpringMVC-004-jump" />
+        <module name="SpringMVC-005-WEB-INF" />
+        <module name="SpringMVC-006-ssm" />
+        <module name="SpringMVC-ssm" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
@@ -19,6 +21,8 @@
       <module name="SpringMVC-003" target="1.8" />
       <module name="SpringMVC-004-jump" target="1.8" />
       <module name="SpringMVC-005-WEB-INF" target="1.8" />
+      <module name="SpringMVC-006-ssm" target="1.8" />
+      <module name="SpringMVC-ssm" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

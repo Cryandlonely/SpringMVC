@@ -7,6 +7,8 @@
       <module fileurl="file://$PROJECT_DIR$/SpringMVC-003-Ajax/SpringMVC-003.iml" filepath="$PROJECT_DIR$/SpringMVC-003-Ajax/SpringMVC-003.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringMVC-004-jump/SpringMVC-004-jump.iml" filepath="$PROJECT_DIR$/SpringMVC-004-jump/SpringMVC-004-jump.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringMVC-005-WEB-INF/SpringMVC-005-WEB-INF.iml" filepath="$PROJECT_DIR$/SpringMVC-005-WEB-INF/SpringMVC-005-WEB-INF.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringMVC-006-ssm/SpringMVC-006-ssm.iml" filepath="$PROJECT_DIR$/SpringMVC-006-ssm/SpringMVC-006-ssm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringMVC-ssm/SpringMVC-ssm.iml" filepath="$PROJECT_DIR$/SpringMVC-ssm/SpringMVC-ssm.iml" />
     </modules>
   </component>
 </project>

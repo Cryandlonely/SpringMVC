@@ -8,6 +8,7 @@
     <file type="web" url="file://$PROJECT_DIR$/SpringMVC-003-Ajax" />
     <file type="web" url="file://$PROJECT_DIR$/SpringMVC-004-jump" />
     <file type="web" url="file://$PROJECT_DIR$/SpringMVC-005-WEB-INF" />
+    <file type="web" url="file://$PROJECT_DIR$/SpringMVC-006-ssm" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -19,6 +20,8 @@
         <option value="$PROJECT_DIR$/Spring-003-Ajax/pom.xml" />
         <option value="$PROJECT_DIR$/SpringMVC-003-Ajax/pom.xml" />
         <option value="$PROJECT_DIR$/SpringMVC-005-WEB-INF/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringMVC-ssm/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringMVC-006-ssm/pom.xml" />
       </list>
     </option>
   </component>

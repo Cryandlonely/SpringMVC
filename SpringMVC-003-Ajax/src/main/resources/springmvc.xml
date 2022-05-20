@@ -5,7 +5,7 @@
        xmlns:mvc="http://www.springframework.org/schema/mvc"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/mvc https://www.springframework.org/schema/mvc/spring-mvc.xsd">
     <!--添加包扫描-->
-    <context:component-scan base-package="com.lixingyuan.example.controller"></context:component-scan>
+    <context:component-scan base-package="com.lonely.example.controller"></context:component-scan>
     <!--不用添加视图解析器，因为处理的是Ajax请求-->
     <!--必须添加注解驱动，专门用来处理Ajax请求-->
     <mvc:annotation-driven></mvc:annotation-driven>

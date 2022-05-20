@@ -17,7 +17,19 @@ public class myTest {
     UserService userService;
     @Test
     public void selectUserPage(){
-        List<User> list = userService.selectUserPage(null,null,0);
+        List<User> list = userService.selectUserPage("三","男",0);
         list.forEach(user -> System.out.println(user));
+    }
+    @Test
+    public void deleteUserById(){
+        System.out.println(userService.deleteUserById("15968162087363060"));
+    }
+    @Test
+    public void getRowCount(){
+        System.out.println(userService.getRowCount(null,"男"));
+    }
+    @Test
+    public void createUser(){
+        System.out.println(userService.createUser(new User("123456789","123456789","987654321","741852963","963258741","951753","66666")));
     }
 }

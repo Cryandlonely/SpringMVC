@@ -20,12 +20,12 @@
         <id property="userAge" column="user_age"></id>
         <id property="userRole" column="user_role"></id>
     </resultMap>
-    <sql id="allColums">
+    <sql id="allColumn">
         user_id,card_type,card_no,user_name,user_sex,user_age,user_role
     </sql>
     <select id="selectUserPage" resultMap="usermap">
         select
-        <include refid="allColums"/>
+        <include refid="allColumn"/>
         from user
         <where>
             <if test="userName!= null and userName !=''">

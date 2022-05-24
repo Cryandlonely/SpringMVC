@@ -28,6 +28,13 @@
         <filter-name>encoding</filter-name>
         <url-pattern>/*</url-pattern>
     </filter-mapping>
+    <!--
+        /与/*区别:
+            /:代表拦截后缀名以外的路径,即它只拦截路径，不拦截带后缀的url,若请求为/user/login.jsp
+                jsp不会进入DispatcherServlet类,即不会被过滤
+            /*:代表拦截所有的路径和后缀,会匹配所有的url,若请求为/user/login.jsp,
+                会出现jsp进入DispatcherServlet类,导致找不到对应的controller,所以报404
+    -->
     <servlet>
         <servlet-name>springmvc</servlet-name>
         <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
